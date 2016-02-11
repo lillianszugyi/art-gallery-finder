@@ -1,0 +1,27 @@
+nav {
+  font-family: "Helvetica-Lt",Arial,Helvetica,Verdana,sans-serif;
+  background-color: #F3C82A;
+}
+
+nav li {
+  color: #434343;
+}
+
+.mobileLogo {
+  color: #040202;
+  color: #716DBC;
+}
+
+.wrapper {
+  color: lt gray;
+}
+
+.leftBrickEvents {
+  color: #541F1F;
+}
+
+footer {
+  color: #212121;
+  color: #FFFFFF;
+  color: #5891AB;
+}
