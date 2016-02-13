@@ -1,14 +1,46 @@
-nav, b {
+/** {
   font-family: "Helvetica-Lt",Arial,Helvetica,Verdana,sans-serif;
   background-color: #F3C82A;
   color: #C93117;
+}*/
+
+header {
+  font-family: Helvetica;
+  background-color: #F3C82A;
+  height: 80px;
 }
 
-nav li {
-  color: #434343;
+header img {
+  margin-left: 90px;
+  padding-top: 15px;
 }
 
-.mobileLogo {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 40px;
+  position: fixed;
+  top: 0;
+  margin-left: 170px;
+}
+
+li a {
+  font-family: Helvetica;
+  color: #2B2A26;
+  border-bottom: solid #333 2px;
+  padding-bottom: 7px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.wrapper.white.fixed {
+  position: fixed;
+  z-index: 1000;
+  height: 40px;
+  top: 85px;
+}
+
+/*.mobileLogo {
   color: #040202;
   color: #716DBC;
 }
