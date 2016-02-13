@@ -1,6 +1,7 @@
-nav {
+nav, b {
   font-family: "Helvetica-Lt",Arial,Helvetica,Verdana,sans-serif;
   background-color: #F3C82A;
+  color: #C93117;
 }
 
 nav li {
