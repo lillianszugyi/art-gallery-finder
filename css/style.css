@@ -26,6 +26,7 @@ ul {
 
 li a {
   font-family: Helvetica;
+  font-weight: lighter;
   color: #2B2A26;
   border-bottom: solid #333 2px;
   padding-bottom: 7px;
