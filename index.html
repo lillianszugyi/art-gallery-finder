@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <title>First Thursday Gallery Finder</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>First Thursday Gallery Finder</title>
   </head>
   <body>
     <header>
@@ -15,9 +16,7 @@
       </ul>
     </nav>
     <br >
-      <section class="map">
-        Map will appear here
-      </section>
+    <div id="map"></div>
 
   <footer id="footer">WHAT WE LEARNED
     <p class="learned">Google Maps API</p>
@@ -25,5 +24,8 @@
     <img class="round" src="media/lillian.jpg"><p class="author">Lillian Szugyi</p>
     <img class="round" src="media/rsz_serina_profile.jpg"><p class="author">Serina Tsang</p>
   </footer>
+  <script src="js/data.js"></script>
+      <script src="js/script.js"></script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?&callback=initMap"></script>
   </body>
 </html>

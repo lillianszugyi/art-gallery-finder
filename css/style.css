@@ -1,3 +1,9 @@
+#map {
+  width: 900px;
+  height: 600px;
+  margin-top: 100px;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 /** {
   font-family: "Helvetica-Lt",Arial,Helvetica,Verdana,sans-serif;
@@ -46,12 +52,6 @@ li a {
   padding-top: 50px;
 }*/
 
-.map {
-  border: 1px solid grey;
-  width: 900px;
-  height: 600px;
-  margin-top: 100px;
-}
 
 footer {
   font-family: Fjalla One, sans-serif;
