@@ -1,22 +1,38 @@
-#map {
-  width: 900px;
-  height: 600px;
-  margin-top: 100px;
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+.container {
+  width: 100%;
+  margin: 0;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
-/** {
-  font-family: "Helvetica-Lt",Arial,Helvetica,Verdana,sans-serif;
-  background-color: #F3C82A;
-  color: #C93117;
-}*/
+#map {
+  height: 400px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+/* Larger than mobile */
+/*@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+/*@media (min-width: 550px) {}
+
+/* Larger than tablet */
+/*@media (min-width: 750px) {}
+
+/* Larger than desktop */
+/*@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+/*@media (min-width: 1200px) {}*/
+
 
 header {
+  display: block;
   font-family: Helvetica;
-  background-color: #F3C82A;
-  height: 80px;
-  position: fixed;
-  width: 100%;
+  background-color: #F5CF47;
+  height: 85px;
 }
 
 header img {
@@ -28,9 +44,11 @@ ul {
   list-style-type: none;
   margin: 0;
   padding-top: 40px;
-  position: fixed;
+  position: relative;
   top: 0;
   margin-left: 170px;
+  z-index: 1000;
+
 }
 
 li a {
@@ -44,53 +62,31 @@ li a {
   letter-spacing: 1px;
 }
 
-/*.wrapper.white.fixed {
-  position: fixed;
-  z-index: 1000;
-  height: 40px;
-  top: 85px;
-  padding-top: 50px;
-}*/
-
-
 footer {
   font-family: Fjalla One, sans-serif;
   letter-spacing: 1px;
   color: #FFFFFF;
   font-size: 22px;
   background-color: #212121;
-  padding-left: 25px;
-}
-
-.learned {
-  border: 2px solid white;
+  /*padding-left: 25px;*/
 }
 
 .author {
   font-family: Helvetica;
-  color: #716DBC;
+  color: #6BA2B8;
   font-size: 18px;
-  letter-spacing: 1px;
+  letter-spacing: 1px
 }
 
 .round {
   border-radius: 35px;
 }
-/*.mobileLogo {
-  color: #040202;
-  color: #716DBC;
-}
 
-.wrapper {
-  color: lt gray;
-}
 
-.leftBrickEvents {
-  color: #541F1F;
-}
-
-footer {
-  color: #212121;
-  color: #FFFFFF;
-  color: #5891AB;
-}
+/*COLORS*/
+/*yellow: #F5Cf47
+dkgray: #2C2C2C
+beige: #E0DED9
+lavender: #7773B6
+orange: #E37B01
+teal: #6BA2B8*/
