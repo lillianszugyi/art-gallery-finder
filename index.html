@@ -17,18 +17,15 @@
     </nav>
 
     <main class="container">
+      <input id="pac-input" class="controls" type="text" placeholder="Search Box"><br/>
       <div id="map"></div>
     </main>
 
-    <footer id="footer" class="container">
-      Here's what we used for this project:
-      <p>Google Maps API</p>
-      <p id="footer">Created by:</p>
-        <img class="round" src="media/lillian.jpg"><p class="author">Lillian Szugyi</p>
-        <img class="round" src="media/serina.jpg"><p class="author">Serina Tsang</p>
+    <footer class="footer">
+      <h3>Created by Lillian Szugyi and Serina Tsang for Code Fellows 201n2 final project, February 2016.</h3>
     </footer>
     <script src="js/data.js"></script>
     <script src="js/script.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?&callback=initMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?&callback=initMap&libraries=places"></script>
   </body>
 </html>
