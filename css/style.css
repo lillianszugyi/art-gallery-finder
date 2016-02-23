@@ -11,19 +11,16 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 /* Larger than mobile */
 /*@media (min-width: 400px) {}
-
 /* Larger than phablet (also point when grid becomes active) */
 /*@media (min-width: 550px) {}
-
 /* Larger than tablet */
 /*@media (min-width: 750px) {}
-
 /* Larger than desktop */
 /*@media (min-width: 1000px) {}
-
 /* Larger than Desktop HD */
 /*@media (min-width: 1200px) {}*/
 
@@ -36,17 +33,18 @@ header {
 }
 
 header img {
-  margin-left: 90px;
+  margin-left: 60px;
   padding-top: 15px;
+  height: 94px;
+  width: 72px;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding-top: 40px;
+  padding-top: 30px;
   position: relative;
   top: 0;
-  margin-left: 170px;
   z-index: 1000;
 
 }
@@ -60,6 +58,13 @@ li a {
   padding-bottom: 7px;
   text-decoration: none;
   letter-spacing: 1px;
+}
+
+.flex-container {
+  display: flex;
+  height: 80px;
+  width: 100%;
+
 }
 
 .controls {
@@ -133,3 +138,4 @@ beige: #E0DED9
 lavender: #7773B6
 orange: #E37B01
 teal: #6BA2B8*/
+Status API Training Shop Blog About Pricing
