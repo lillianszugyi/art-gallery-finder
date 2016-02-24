@@ -12,9 +12,12 @@
 }
 
 #map {
-  height: 400px;
   width: 95%;
-  margin: 20px auto 10px auto;
+  margin: 20px auto 0 auto;
+}
+
+.vh {
+  height: 90vh;
 }
 
 header {
