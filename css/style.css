@@ -5,25 +5,17 @@
   margin: 0;
 }
 
+.flex-container {
+  display: flex;
+  height: 80px;
+  width: 100%;
+}
+
 #map {
   height: 400px;
   width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  margin-top: 20px;
+  margin: 20px auto 10px auto;
 }
-/* Larger than mobile */
-/*@media (min-width: 400px) {}
-/* Larger than phablet (also point when grid becomes active) */
-/*@media (min-width: 550px) {}
-/* Larger than tablet */
-/*@media (min-width: 750px) {}
-/* Larger than desktop */
-/*@media (min-width: 1000px) {}
-/* Larger than Desktop HD */
-/*@media (min-width: 1200px) {}*/
-
 
 header {
   display: block;
@@ -44,9 +36,6 @@ ul {
   margin: 0;
   padding-top: 30px;
   position: relative;
-  top: 0;
-  z-index: 1000;
-
 }
 
 li a {
@@ -54,34 +43,15 @@ li a {
   font-weight: lighter;
   font-size: 18px;
   color: #2B2A26;
-  border-bottom: solid #333 2px;
+  border-bottom: solid #333333 2px;
   padding-bottom: 7px;
   text-decoration: none;
   letter-spacing: 1px;
 }
 
-.flex-container {
-  display: flex;
-  height: 80px;
-  width: 100%;
-}
-
-.controls {
-  margin-top: 10px;
-  border: 1px solid transparent;
-  border-radius: 2px 0 0 2px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  height: 32px;
-  outline: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-}
-
 #pac-input {
-  background-color: #fff;
-  font-family: Roboto;
-  font-size: 15px;
-  font-weight: 300;
+  background-color: #FFFFFF;
+  font-size: 1.5em;
   margin-left: 12px;
   padding: 0 11px 0 13px;
   text-overflow: ellipsis;
@@ -92,22 +62,15 @@ li a {
   border-color: #4d90fe;
 }
 
-.pac-container {
-  font-family: Roboto;
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
-
-#type-selector {
-  color: #fff;
-  background-color: #4d90fe;
-  padding: 5px 11px 0px 11px;
-}
-
-#type-selector label {
-  font-family: Roboto;
-  font-size: 13px;
-  font-weight: 300;
-}
-
 
 footer {
   text-align: center;
@@ -118,18 +81,6 @@ footer {
   padding: 25px;
 }
 
-.author {
-  font-family: Helvetica;
-  color: #6BA2B8;
-  font-size: 18px;
-  letter-spacing: 1px
-}
-
-.round {
-  border-radius: 35px;
-}
-
-
 /*COLORS*/
 /*yellow: #F5Cf47
 dkgray: #2C2C2C
@@ -137,4 +88,3 @@ beige: #E0DED9
 lavender: #7773B6
 orange: #E37B01
 teal: #6BA2B8*/
-Status API Training Shop Blog About Pricing
